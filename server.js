@@ -29,8 +29,8 @@ app.get('/ui/style.css', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'style.css'));
 });
 
-app.get('/ui/concess.png', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'concess.png'));
+app.get('/ui/146.jpeg', function (req, res) {
+  res.sendFile(path.join(__dirname, 'ui', '146.jpeg'));
 });
 //mypracticecode//
 app.get('article1',function(req,res)
